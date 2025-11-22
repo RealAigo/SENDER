@@ -1,0 +1,16 @@
+{
+  "name": "email-sender-system",
+  "version": "1.0.0",
+  "description": "Multi-SMTP Email Sending System",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["email", "smtp", "campaign", "bulk-email"],
+  "author": "",
+  "license": "ISC"
+}
+
